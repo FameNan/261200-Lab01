@@ -25,7 +25,7 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Hello and welcome!");
         Turtle july = new Turtle();
-        //Lotus leaf
+        //water lily leaf
         july.up();
         july.home();
         july.forward(230);
@@ -40,7 +40,7 @@ public class Main {
         july.forward(100);
         july.left(60);
         draw_arc(july,230,185);
-        //Lotus petal vein
+        //water lily petal vein
         july.up();
         july.home();
         july.down();
@@ -104,7 +104,7 @@ public class Main {
             draw_petal(july,140,60);
             july.left(60);
         }
-        //Lotus core
+        //water lily core
         july.home();
         july.penColor("Gold");
         july.up();
@@ -113,7 +113,7 @@ public class Main {
         july.left(90);
         july.width(50);
         draw_arc(july,40,360);
-        //Lotus stamen
+        //water lily stamen
         july.up();
         july.home();
         july.down();
